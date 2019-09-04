@@ -1,57 +1,66 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Cody Paras, The Chill Guy</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/main.css">
-	</head>
-    <body style="background-image:url('/images/black.png');">
-    </body>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/index.html">Home</a></li>
-        		<li><a href="/portfolio.html">Portfolio</a></li>
-        		<li><a href="/cars.html">Cars</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Car Stuff</h1>
-				<p1> My Car At the moment... before you say anything, my time is being spent gathering parts, painting, and sanding things like my rims, subframe braces, control arms, brake calipers, wing, side moldings, you get the point. I'm also trying to get my hands on a B-20 so I can do a motor swap (So LMK).</p1>
-                
-                <img src="/images/mycar.JPG" width=1000>
-                
-                <h2> My Brother's Car... @murdast on instagram</h2>
-                <img src="/images/brandoncar.JPG" width=1000 >
-                
-                <h3> G37's are my favorite stanced cars </h3>
-                <img src="/images/stancedg35.jpg" width=1000 >
-                
-                <h4> Owning a nice S13 is also a dream I have</h4>
-                <img src="/images/s13coupe.jpeg" width= 800>
-                
-                <style> 
-                    h1{ color: white}
-                    h2 { color: white}
-                    h3 { color: white}
-                    h4 { color: white}
-                    
-                    p1 { color: white}
-                    p2 { color: white}
-                    p3 { color: white}
-                    p4 { color: white}
-                </style>
-                
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-        
-		<footer>
-    		<ul>
-        		<li><a href="mailto:codyboy201@gmail.com">email</a></li>
-        		<li><a href="https://github.com/cody-exe">github.com/cody-exe</a></li>
-			</ul>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/fbv5tDdxiD0?rel=0&autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allow=fullscreen></iframe>>
-		</footer>
-	</body>
-</html>
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul { /*this code sets the font and stuff for my footer and my nav bar*/
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li { 
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline; /*this code makes the text on my header and footer underline light gray when you hover over it*/
+    color: lightgray
+}
+h1 { /*this code sets the font size and the font of my heading*/
+    font-size: 4em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 { /*this code sets the font size and the font of my heading*/
+    font-size: 2.7em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h3 { /*this code sets the font size and the font of my heading*/
+    font-size: 2.7em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h4 { /*this code sets the font size and the font of my heading*/
+    font-size: 2.7em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p1 { /*this code sets the font size and the font of my paragraph*/
+    font-size: 1.7em;
+font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p2 { /*this code sets the font size and the font of my paragraph*/ 
+    font-size: 1.7em;
+font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    
+}
+p3 { /*this code sets the font size and the font of my paragraph*/
+    font-size: 1.7em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p4 {font-size: 1.7em; /*this code sets the font size and the font of my paragraph*/
+font-family:'Helvetica', 'Arial', 'Sans-Serif';}
+footer {
+    border-top: 1px solid white ;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
