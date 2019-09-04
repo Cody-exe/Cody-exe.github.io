@@ -1,14 +1,14 @@
-body {
+body { /*this entire css page is for the basic layout of my pages but i changed the individual style of each page in the html files*/
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul, footer ul { /*this code sets the font and stuff for my footer and my nav bar*/
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li, footer ul li { 
     display: inline;
     margin-right: 20px;
 }
@@ -17,39 +17,39 @@ a {
     color: white;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /*this code makes the text on my header and footer underline light gray when you hover over it*/
     color: lightgray
 }
-h1 {
+h1 { /*this code sets the font size and the font of my heading*/
     font-size: 4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-h2 {
+h2 { /*this code sets the font size and the font of my heading*/
     font-size: 2.7em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-h3 {
+h3 { /*this code sets the font size and the font of my heading*/
     font-size: 2.7em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-h4 {
+h4 { /*this code sets the font size and the font of my heading*/
     font-size: 2.7em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p1 {
+p1 { /*this code sets the font size and the font of my paragraph*/
     font-size: 1.7em;
 font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p2 {
+p2 { /*this code sets the font size and the font of my paragraph*/ 
     font-size: 1.7em;
 font-family:'Helvetica', 'Arial', 'Sans-Serif';
     
 }
-p3 { 
+p3 { /*this code sets the font size and the font of my paragraph*/
     font-size: 1.7em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p4 {font-size: 1.7em;
+p4 {font-size: 1.7em; /*this code sets the font size and the font of my paragraph*/
 font-family:'Helvetica', 'Arial', 'Sans-Serif';}
 footer {
     border-top: 1px solid white ;
