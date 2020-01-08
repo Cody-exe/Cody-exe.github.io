@@ -44,6 +44,10 @@ h6 { /*this code sets the font size and the font of my heading*/
     font-size: 2.7em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h7 { /*this code sets the font size and the font of my heading*/
+    font-size: 2.7em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 p1 { /*this code sets the font size and the font of my paragraph*/
     font-size: 1.7em;
 font-family:'Helvetica', 'Arial', 'Sans-Serif';
